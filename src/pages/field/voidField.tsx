@@ -15,6 +15,8 @@ const form = createForm({
     effects: () => {},
 });
 
+console.log(111);
+
 export default () => {
     return (
         <FormProvider form={form}>
